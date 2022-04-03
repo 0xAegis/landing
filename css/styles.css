@@ -3135,15 +3135,17 @@ fieldset:disabled .btn {
   pointer-events: none;
   opacity: 0.65;
 }
-
+/* edited */
 .btn-primary {
   color: #fff;
-  background-color: #64a19d;
+
+  font-weight: 600;
+  background-color: #6163ff;
   border-color: #64a19d;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #558985;
+  background-color: #3739b4;
   border-color: #50817e;
 }
 .btn-check:focus + .btn-primary,
@@ -8437,10 +8439,10 @@ fieldset:disabled .btn {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
 }
-
+/* edited */
 .bg-black {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #1a1b1e !important;
 }
 
 .bg-white {
@@ -11943,7 +11945,7 @@ body {
   }
   /* edited */
   #mainNav.navbar-shrink {
-    background-color: black;
+    background-color: #1a1b1e;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: rgba(255, 255, 255, 0.5);
@@ -11984,7 +11986,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: black;
+  background: #1a1b1e;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -12037,12 +12039,7 @@ body {
 .about-section {
   padding-top: 5rem;
   padding-bottom: 8rem;
-  background: linear-gradient(
-    to bottom,
-    #000 0%,
-    rgba(0, 0, 0, 0.9) 75%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+  background: #1a1b1e;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -12106,7 +12103,7 @@ body {
   padding-top: 5rem;
 }
 .about-section .card {
-  background: black;
+  background: #1a1b1e;
   border: 0;
   /* edited */
   /* border-bottom: 0.25rem solid #64a19d; */
